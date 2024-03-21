@@ -2,12 +2,6 @@ import SimpleTodos from './components/SimpleTodos'
 
 import './App.css'
 
-const App = () => (
-  <div className="bg-container">
-    <div className="container">
-      <SimpleTodos />
-    </div>
-  </div>
-)
+const App = () => <SimpleTodos />
 
 export default App
